@@ -41,12 +41,17 @@ img {
   text-decoration: none;
   background-color: var(--eucaplytus);
   color: var(--dark-purple);
+  transition: 0.3s ease;
 }
 
 .button:hover {
   background-color: transparent;
   color: var(--eucaplytus);
   border: 2px solid var(--eucaplytus);
+}
+
+.button:active {
+  opacity: 0.6;
 }
 
 /* CONTAINER */
@@ -67,6 +72,15 @@ img {
   padding-top: 56px;
 }
 
+.site-header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 55px;
+}
+
+/* UNDERLINE-LINK */
+
 .underline-link {
   display: inline-block;
   text-decoration: none;
@@ -76,6 +90,7 @@ img {
   font-weight: bold;
   line-height: 32px;
   letter-spacing: -0.18px;
+  transition: 0.3s ease;
 }
 
 .underline-link:hover {
@@ -86,17 +101,12 @@ img {
   opacity: 0.7;
 }
 
-.site-header__container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 /* LOGO */
 
 .logo {
   display: block;
   text-decoration: none;
+  transition: 0.3s ease;
 }
 
 .logo:hover {
@@ -131,6 +141,7 @@ img {
 
 .hero-heading {
   max-width: 590px;
+  margin-top: 0;
   font-family: var(--heading-font-family);
   font-size: 65px;
   line-height: 1.2;
