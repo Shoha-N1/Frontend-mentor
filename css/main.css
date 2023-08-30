@@ -57,7 +57,7 @@ img {
 /* CONTAINER */
 
 .container {
-  width: 100%;
+  /* width: 100%; */
   max-width: 1194px;
   padding-left: 40px;
   padding-right: 40px;
@@ -145,7 +145,7 @@ img {
   font-family: var(--heading-font-family);
   font-size: 65px;
   line-height: 1.2;
-  font-weight: 500;
+  font-weight: 600;
   color: #fff;
   text-align: center;
 }
@@ -156,4 +156,44 @@ img {
 
 .hero__button {
   margin-bottom: 50px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  .site-header-hero-wrapper {
+    padding-top: 36px;
+  }
+
+  .site-header__container {
+    margin-bottom: 60px;
+  }
+
+  .hero-heading {
+    max-width: 550px;
+    font-size: 60px;
+    margin-bottom: 40px;
+    line-height: 1.1;
+    font-weight: 500;
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .site-header__container {
+    margin-bottom: 64px;
+  }
+
+  .hero-heading {
+    max-width: 400px;
+    font-size: 50px;
+  }
+  .hero__button {
+    margin-bottom: 60px;
+  }
 }

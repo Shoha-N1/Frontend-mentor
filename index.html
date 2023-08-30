@@ -24,7 +24,6 @@
         <a href="index.html" class="site-header__logo logo">
           <img src="./img/logo.svg" alt="Site logo" class="logo-img" width="97" height="26">
         </a> <!-- .site-header__logo -->
-
         <a href="#" class="underline-link">Apply for access</a>
       </div>
     </header>
@@ -37,9 +36,12 @@
         <a href="#" class="hero__button button">Learn more</a>
 
         <picture class="hero__picture">
-          <source srcset="./img/bg-phone.svg" type="image/svg">
-          <img class="hero__img" src="./img/bg-phone.svg" alt="Phone with statistics illustration on the screen" width="700" height="420"
-            srcset="./img/bg-phone.svg 1x, ./img/bg-phone@2x.svg 2x">
+          <img src="img/" alt="">
+          <source srcset="img/image-hero-mobile1x.png 1x, img/image-hero-mobile@2x.png 2x" media="(max-width:500px)">
+          <source srcset="img/image-hero-tablet1x.png 1x, img/image-hero-tablet@2x.png 2x" media="(max-width:768px)">
+          <source srcset="img/image-hero-desktop.png" type="image/png">
+          <img class="hero__img" src="img/image-hero-desktop.png" alt="Phone with statistics illustration on the screen"
+            width="700" height="420" srcset="img/image-hero-desktop.png 1x, img/image-hero-desktop@2x.png 2x">
         </picture>
       </div>
     </div>
