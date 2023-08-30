@@ -58,9 +58,9 @@ img {
 
 .container {
   width: 100%;
-  max-width: 1100px;
-  padding-left: 16px;
-  padding-right: 16px;
+  max-width: 1194px;
+  padding-left: 40px;
+  padding-right: 40px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -145,9 +145,13 @@ img {
   font-family: var(--heading-font-family);
   font-size: 65px;
   line-height: 1.2;
-  font-weight: 400;
+  font-weight: 500;
   color: #fff;
   text-align: center;
+}
+
+.hero__img {
+  display: block;
 }
 
 .hero__button {
