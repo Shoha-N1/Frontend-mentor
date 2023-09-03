@@ -312,7 +312,7 @@ img {
   .container {
     padding-left: 16px;
     padding-right: 16px;
-    transform: scale(0.8);
+    transform: scale(0.9);
   }
 
   .site-header__container {
@@ -320,7 +320,7 @@ img {
   }
 
   .hero-heading {
-    max-width: 400px;
+    max-width: 350px;
     font-size: 50px;
   }
 
@@ -329,11 +329,10 @@ img {
   }
 
   .features {
-    padding-top: 155px;
+    padding-top: 145px;
     padding-bottom: 70px;
   }
-  .features__list {
-  }
+
   .features__item:not(:last-child) {
     margin-bottom: 40px;
   }
@@ -349,8 +348,4 @@ img {
     margin-bottom: 24px;
   }
 
-  .feature__title {
-  }
-  .feature__description {
-  }
 }
